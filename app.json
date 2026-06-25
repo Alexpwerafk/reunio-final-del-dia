@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Reunión Final del Día",
+    "slug": "reunion-final-del-dia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "reunion-final",
+    "splash": {
+      "backgroundColor": "#0a0a0a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.reunionfinal.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.reunionfinal.app"
+    },
+    "plugins": ["expo-router"]
+  }
+}
